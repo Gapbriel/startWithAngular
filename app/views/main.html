@@ -1,0 +1,28 @@
+<div class="jumbotron">
+  <h1>'welcome to Pane's examples!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Hack!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="row marketing">
+    <h4>Fucking Countries</h4>
+    <div class="countries_layout">
+      <ul ng-controller="WorldCtrl">
+        <li ng-repeat="country in countries">
+        {{country.name}} has population of {{country.population}} ,
+        Country's % population: {{worldsPercentage(country.population)}} %
+        </li>
+      <hr>
+          World's population: {{population}} millions
+      </ul>
+    </div>
+</div>
+
+<div class="row marketing marketing_input">
+    <h4>Input example</h4>
+    say hello to <input class="input__mark" ng-model="yourname" placeholder="Enter your name here..."/>
+    <h5> HELLO {{yourname}}</h5>
+</div>
