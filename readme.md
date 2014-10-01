@@ -1,4 +1,4 @@
-# AngularJS Examples 
+# AngularJS Examples with Yeoman-Angular-Generator
 
 > Some examples with Angular 
 
@@ -7,7 +7,8 @@
 
 
 ```
--git clone git@github.com:Gapbriel/startWithAngular.git
+-git clone git@github.com:Gapbriel/startWithAngular.git or
+  git clone https://github.com/Gapbriel/startWithAngular
 
 - npm install
 
